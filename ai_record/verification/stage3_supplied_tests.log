@@ -1,0 +1,12 @@
+test_cli_outputs_and_normalization (test_mds.MDSTests.test_cli_outputs_and_normalization) ... ok
+test_handout_triangle_gram (test_mds.MDSTests.test_handout_triangle_gram) ... ok
+test_invalid_cli_and_data (test_mds.MDSTests.test_invalid_cli_and_data) ... ok
+test_minkowski (test_mds.MDSTests.test_minkowski) ... ok
+test_negative_eigenvalue (test_mds.MDSTests.test_negative_eigenvalue) ... ok
+test_rank_deficiency_and_zero (test_mds.MDSTests.test_rank_deficiency_and_zero) ... ok
+test_square_spectrum_and_distances (test_mds.MDSTests.test_square_spectrum_and_distances) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 13.294s
+
+OK

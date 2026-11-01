@@ -1,0 +1,12 @@
+{
+  "2": {
+    "orthogonal_alignment_relative_frobenius_error": 1.5224411648458135e-15,
+    "scaling_applied": false,
+    "max_absolute_coordinate_error": 6.661338147750939e-15
+  },
+  "3": {
+    "orthogonal_alignment_relative_frobenius_error": 1.618718917917924e-15,
+    "scaling_applied": false,
+    "max_absolute_coordinate_error": 9.492406860545088e-15
+  }
+}

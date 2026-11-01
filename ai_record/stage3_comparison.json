@@ -1,0 +1,244 @@
+{
+  "supplied_tests_exit_status": 0,
+  "supplied_tests_count": 7,
+  "supplied_input_matches": true,
+  "configuration_comparisons": [
+    {
+      "dataset": "Iris",
+      "q": "2",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.102439560151285e-15
+    },
+    {
+      "dataset": "Iris",
+      "q": "2",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.094700889919933e-15
+    },
+    {
+      "dataset": "wine",
+      "q": "1",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 6.84072658953042e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "1",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 7.089295421420545e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "1.5",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 6.494717375269002e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "1.5",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 6.67113077531859e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "2",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.611285540964472e-15
+    },
+    {
+      "dataset": "wine",
+      "q": "2",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.893136204883096e-15
+    },
+    {
+      "dataset": "wine",
+      "q": "3",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 2.055503428715295e-15
+    },
+    {
+      "dataset": "wine",
+      "q": "3",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 2.075758959314853e-15
+    },
+    {
+      "dataset": "wine",
+      "q": "4",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 9.324774696776761e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "4",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 9.701907283752526e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "inf",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 3.584564537058734e-16
+    },
+    {
+      "dataset": "wine",
+      "q": "inf",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 3.598095468799099e-16
+    },
+    {
+      "dataset": "seeds",
+      "q": "1",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.035123833204479e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "1",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.1039657493999293e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "1.5",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.7877737604233477e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "1.5",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.7479543937827097e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "2",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 5.943648750183341e-16
+    },
+    {
+      "dataset": "seeds",
+      "q": "2",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 6.513218942241563e-16
+    },
+    {
+      "dataset": "seeds",
+      "q": "3",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 8.38166836455252e-16
+    },
+    {
+      "dataset": "seeds",
+      "q": "3",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 7.988475132820096e-16
+    },
+    {
+      "dataset": "seeds",
+      "q": "4",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.1573471388594378e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "4",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.1454982044724263e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "inf",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.4353045014845505e-15
+    },
+    {
+      "dataset": "seeds",
+      "q": "inf",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.382642426593143e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "1",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 9.720176926512004e-16
+    },
+    {
+      "dataset": "glass",
+      "q": "1",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.0189911713450291e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "1.5",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.275160336250435e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "1.5",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.0657469659838227e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "2",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 1.517472474548403e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "2",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.1786379188150196e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "3",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 8.30275727123354e-16
+    },
+    {
+      "dataset": "glass",
+      "q": "3",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.4176044707857571e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "4",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 4.7984446265109e-16
+    },
+    {
+      "dataset": "glass",
+      "q": "4",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.436812835701922e-15
+    },
+    {
+      "dataset": "glass",
+      "q": "inf",
+      "dimensions": 2,
+      "relative_pairwise_configuration_error": 8.169546304189811e-16
+    },
+    {
+      "dataset": "glass",
+      "q": "inf",
+      "dimensions": 3,
+      "relative_pairwise_configuration_error": 1.0144368239370395e-15
+    }
+  ],
+  "max_relative_pairwise_configuration_error": 2.075758959314853e-15,
+  "integration": "Original validated canonical implementation retained; supplied implementation and artifacts preserved unchanged as separate-run evidence",
+  "differences": [
+    "NumPy eigensolver versus canonical SciPy eigensolver",
+    "Supplied tolerance 10*n*eps*spectral_scale versus canonical 100*n*eps*spectral_scale",
+    "Supplied code zeroes negligible positive eigenvalues; canonical code clips negative values only in coordinates",
+    "Different plot styling, CSV formatting and diagnostic JSON field names"
+  ],
+  "provenance": "User supplied as fresh Codex run; supplied transcript is command/output log, not full platform conversation export"
+}

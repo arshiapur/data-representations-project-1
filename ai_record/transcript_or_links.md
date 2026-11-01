@@ -33,3 +33,7 @@ The AI found Wine dominated by raw Proline variation; Seeds changes at both endp
 ## Reproduction and user review
 
 code/reproduce.py executes tests and all required results from included matrices; it was exercised end-to-end. The source PDFs are included under documentation/. No application publishing or repository push was performed. The student remains responsible for reviewing all code/claims and for any required separate ChatGPT/fresh-Codex prompt execution. README provides those steps.
+
+## Subsequent separate-run artifacts supplied by the user
+
+Stage 1 audit and CSV are preserved under stage1_chatgpt/. The completed Stage 3 run is preserved under stage3_codex/, including its actual command/output transcript and all original artifacts. The supplied transcript identifies itself as a subprocess record, not a platform chat export. Checksums, seven rerun tests and rotation-invariant numerical comparisons were verified; see stage3_comparison.json. Earlier initial-run limitations above are historical; current remaining missing records are full platform conversation exports or task/share links.

@@ -1,23 +1,19 @@
-# Required AI session records still pending
+# Current session evidence and remaining records
 
-These records cannot be manufactured from the current Codex conversation. The current tools do not open a separate ChatGPT product session or a fresh user-facing Codex task. A subagent or a Python subprocess would not establish either requirement.
+## Stage 1 — supplied
 
-## Stage 1: ChatGPT
+User-supplied ChatGPT acquisition audit and Iris.csv are preserved in stage1_chatgpt/. All 600 measurements, headers and row order match the submitted matrix. The audit reports current UCI page/raw-source checks and regeneration from a previously retained official ZIP after live-download failure. No fresh live ZIP download is claimed. The full ChatGPT conversation export or share link remains to be added if available.
 
-Open a new ChatGPT conversation with browsing and file creation available. Submit the entire contents of prompts/Prompt1.txt followed by a newline and Iris. Save the actual response and downloaded Iris.csv. Export the conversation or retain a share link in ai_record/. Compare its source selection, headers, row order and numeric values with data/Iris.csv; document any differences before replacing any matrix. In particular, UCI iris.data and bezdekIris.data can differ, so source choice must be recorded rather than silently reconciled.
+## Stage 3 — supplied and checked
 
-## Stage 3: fresh Codex task
+The user supplied stage3_results.zip as the completed separate Codex run. Its complete contents are preserved unchanged in stage3_codex/: exact Prompt3, handout, data, generated mds.py, tests, results, diagnostics, checksums and TASK_EXECUTION_TRANSCRIPT.txt. All supplied file hashes passed; all seven tests passed on rerun; 38 configurations were compared successfully against the canonical implementation. Differences and errors are in stage3_comparison.json; local test output is in verification/stage3_supplied_tests.log.
 
-Create a fresh Codex task, attach documentation/MDS.pdf and make data/Iris.csv available. Submit the complete prompts/Prompt3.txt. Retain the generated code, actual transcript/task link, test output and both CLI outputs. Compare its distance/Gram construction, eigenvalue policy, filename behavior and q=2 configurations against this submission. Compare configurations by pairwise distances or orthogonal alignment, allowing signs/rotations but no scaling. Document differences and any student edits. Do not claim this step complete until the actual task is run.
+The supplied transcript is explicitly a command/output record, not a full platform conversation export. A task URL or actual conversation export would strengthen the fresh-task provenance. It has not been supplied; no such link or transcript has been invented. There is no need to resend the starter package.
 
-## Independent hidden-query check
+## Reproduction — confirmed
 
-Optionally have another person pick an undisclosed eligible UCI query, execute Prompt1 in ChatGPT and Prompt2 in Codex without dataset-specific prompt edits, and retain both sessions and outputs. The included Wisconsin diagnostic trial is a portability check in the existing conversation, not a blind test or a guarantee for every query.
+The full clean cloud reproduction completed with exit 0 in 69.10 seconds, generating all required results, and both standalone Stage 3 commands passed. Actual logs/status are in verification/. This is cloud-machine validation, not a claimed run on the student computer.
 
-## Execution-limit note
+## Blind evaluation — not guaranteed
 
-The reproduction runner launches 36 separate Python/plotting processes for Stage 4. A short command timeout may end observation before the pipeline completes. Current clean-run exit status, elapsed time and console log are in verification/. It was tested on the cloud machine, not the student computer.
-
-## Stage 1 follow-up evidence received
-
-The user supplied acquisition_audit.md and Iris.csv from a reported ChatGPT execution. Both are preserved in stage1_chatgpt/. The numeric matrix exactly matches the submitted matrix. The audit explicitly documents reuse of a retained official archive after a live ZIP-download limitation. Stage 1 now has an acquisition audit and output; still obtain the actual conversation export or share link to complete the transcript evidence. No fresh Stage 3 Codex record has been supplied.
+A supplementary non-Iris portability check passed in the original session. It is not a blind model evaluation or a guarantee for all hidden datasets. Optional independent blind checks should retain the actual query, sessions and outputs.

@@ -2,6 +2,14 @@
 
 Iris is the development dataset. The three Stage 4 datasets selected by Codex are **Wine**, **Seeds**, and **Glass Identification**. The analysis is in results/q_analysis.md. Final prompts are in prompts/; the exact required filenames are preserved. All numeric matrices contain features only, with no labels or IDs.
 
+## Consolidated submission status
+
+The package now includes the user-supplied Stage 1 audit/CSV and the completed Stage 3 package. The latter is preserved verbatim under ai_record/stage3_codex/, including its exact prompt, handout, source, seven tests, coordinate CSVs, PNGs, diagnostic spectra, checksums and command/output execution transcript. Supplied checksums were verified and all seven tests rerun. All 38 compared configurations (Iris in both dimensions plus three Stage 4 datasets × six q × two dimensions) agree with the canonical implementation to numerical precision in rotation-invariant distance comparisons.
+
+The canonical code/mds.py and its reproducible results are retained to avoid silently mixing implementations or tolerance policies. The separate implementation uses NumPy eigh rather than SciPy eigh, a 10*n*eps tolerance rather than 100*n*eps, and zeroes negligible positive modes; it also has different plot styling and JSON fields. These differences and numerical comparisons are recorded in ai_record/stage3_comparison.json. Both implementations and both Iris result sets are included, clearly identified. No numeric source matrix or Stage 4 selection changed.
+
+Current evidence supports working results and supplied separate-run artifacts. The remaining documentary limitation is that the supplied execution transcript records commands/output, not the full Codex platform conversation; the actual ChatGPT conversation export/share link is also not included. Add those links/exports if available. Earlier dated notes about pending sessions describe the original state and are superseded by this section.
+
 ## Reproduce the results
 
 Use Python 3.12 (tested 3.12.14). Required packages and tested versions are numpy 2.3.5, scipy 1.17.0 and matplotlib 3.10.8, pinned in requirements.txt. No randomized algorithm is used in the final results. From this archive's root:
@@ -32,10 +40,10 @@ Prompt filenames below mean **their complete contents**, not the literal filenam
 
 1. Give ChatGPT prompts/Prompt1.txt followed by whitespace and `Iris` in one message. For a hidden query substitute ONLY that final query, preserving capitalization and underscores. The prompt searches official UCI sources, inspects unfamiliar packaging and documentation, excludes targets/IDs/metadata, records treatment and provenance, and produces data/QUERY.csv. It must report retrieval failure honestly rather than substitute data.
 2. Give Codex prompts/Prompt2.txt followed by whitespace and the SAME query in one message. PCA uses that matrix directly. Do not supply dataset-specific column names or modify the reusable prompt. code/pca.py can process the resulting numeric matrix generically.
-3. The assignment requests a **fresh Codex task**: attach documentation/MDS.pdf and submit prompts/Prompt3.txt. The supplied Multidimensional-Scaling.pdf has been retained under that required handout name. The implementation follows its STRAIN derivation, including equation (6), negative-eigenvalue clipping and top-K coordinate construction. This project's actual implementation and execution took place in one continuing Codex conversation; it is not represented as a separate fresh-task run. If the instructor enforces this process requirement, rerun this consolidated prompt in a fresh task with data/Iris.csv available and compare results.
+3. The assignment requests a **fresh Codex task**: attach documentation/MDS.pdf and submit prompts/Prompt3.txt. The supplied Multidimensional-Scaling.pdf is retained under that required handout name. The user subsequently supplied the completed separate Stage 3 package, preserved unchanged in ai_record/stage3_codex/. Its seven tests were rerun successfully and its configurations compared with the canonical implementation; see ai_record/stage3_comparison.json. The supplied command/output transcript is not a full platform conversation export.
 4. Give Codex prompts/Prompt4.txt with mds.py available and **no dataset argument**. Stage 4 selects its own three eligible UCI datasets before examining q-dependent results. The submitted replay uses the locked selection in data/stage4/selection.md; it does not choose new datasets each replay.
 
-Prompts are retained as consolidated instructions; the artifacts in this archive were generated while following them in this Codex conversation. No independent ChatGPT product session or separate fresh Codex session is claimed. The separate product/session execution requested by the assignment should be completed by the student if required by the instructor.
+Prompts are retained as consolidated instructions. The original canonical artifacts were generated in this conversation; user-supplied ChatGPT Stage 1 and separate Codex Stage 3 artifacts are now also included and compared. Their full platform conversation exports/share links have not been supplied. The records distinguish reported session provenance from independently checked files and command logs.
 
 ## Data and source records
 
@@ -63,7 +71,7 @@ Use the existing checkout in cloud tasks, which are already isolated; no additio
 
 ## Additional prompt recheck
 
-The prompts were reviewed again and tried on `wisconsin_cancer_diagnostic` in the current Codex session. A 569×30 feature matrix and all four PCA figures were produced, with independent SVD discrepancies below 3e-16. This supplementary portability dataset is **not** part of the three Stage 4 selections. See ai_record/prompt_recheck.md for scope, exact prompt messages and evidence; `python ai_record/prompt_checks/replay.py` reproduces that check. `python code/audit_results.py` independently verifies all 36 Stage 4 embeddings against SciPy distances and a separate Gram/spectrum calculation. Separate ChatGPT/fresh-Codex execution remains a student process step.
+The prompts were reviewed again and tried on `wisconsin_cancer_diagnostic` in the current Codex session. A 569×30 feature matrix and all four PCA figures were produced, with independent SVD discrepancies below 3e-16. This supplementary portability dataset is **not** part of the three Stage 4 selections. See ai_record/prompt_recheck.md for scope, exact prompt messages and evidence; `python ai_record/prompt_checks/replay.py` reproduces that check. `python code/audit_results.py` independently verifies all 36 Stage 4 embeddings against SciPy distances and a separate Gram/spectrum calculation. Separate-run artifacts were subsequently supplied; full platform conversation exports/share links remain outstanding.
 
 ## Clean reproduction confirmation
 
@@ -71,4 +79,5 @@ A fresh output directory containing no existing results completed `python code/r
 
 ## User-supplied Stage 1 follow-up
 
-The user subsequently supplied a ChatGPT acquisition audit and Iris.csv, preserved verbatim in ai_record/stage1_chatgpt/. Independent comparison found identical feature headers, row order and all 150×4 numeric values relative to data/Iris.csv, so no matrix or downstream result was replaced. The supplied audit reports that ChatGPT verified the current UCI page/raw-text source but regenerated the CSV from the previously retained official ZIP because a fresh ZIP download was unavailable. This is not claimed as fresh live archive retrieval. Earlier notes about no separate ChatGPT artifacts describe the original run; these follow-up artifacts are now included. The actual ChatGPT conversation export/share link has not yet been supplied, and the fresh Stage 3 Codex task remains pending.
+The user subsequently supplied a ChatGPT acquisition audit and Iris.csv, preserved verbatim in ai_record/stage1_chatgpt/. Independent comparison found identical feature headers, row order and all 150×4 numeric values relative to data/Iris.csv, so no matrix or downstream result was replaced. The supplied audit reports that ChatGPT verified the current UCI page/raw-text source but regenerated the CSV from the previously retained official ZIP because a fresh ZIP download was unavailable. This is not claimed as fresh live archive retrieval. Earlier notes about no separate ChatGPT artifacts describe the original run; these follow-up artifacts are now included. The actual ChatGPT conversation export/share link has not yet been supplied, and the supplied separate Stage 3 artifacts are described in the current status section below.
+
