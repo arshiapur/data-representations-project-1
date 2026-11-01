@@ -64,3 +64,7 @@ Use the existing checkout in cloud tasks, which are already isolated; no additio
 ## Additional prompt recheck
 
 The prompts were reviewed again and tried on `wisconsin_cancer_diagnostic` in the current Codex session. A 569×30 feature matrix and all four PCA figures were produced, with independent SVD discrepancies below 3e-16. This supplementary portability dataset is **not** part of the three Stage 4 selections. See ai_record/prompt_recheck.md for scope, exact prompt messages and evidence; `python ai_record/prompt_checks/replay.py` reproduces that check. `python code/audit_results.py` independently verifies all 36 Stage 4 embeddings against SciPy distances and a separate Gram/spectrum calculation. Separate ChatGPT/fresh-Codex execution remains a student process step.
+
+## Clean reproduction confirmation
+
+A fresh output directory containing no existing results completed `python code/reproduce.py` with exit status 0 in 69.10 seconds on the current cloud machine. It regenerated six required Iris PNGs and all 36 Stage 4 PNGs. Both standalone Stage 3 CLI commands also exited 0 and produced the expected CSV/PNG files in their current directory. All 36 regenerated embeddings passed an independent numerical audit and matched the submitted coordinates. Actual console logs and machine-readable status are retained in ai_record/verification/. This verifies a clean result regeneration in the cloud runtime, not execution on the student computer. See ai_record/required_session_steps.md for the still-pending ChatGPT and fresh-Codex transcript requirements.

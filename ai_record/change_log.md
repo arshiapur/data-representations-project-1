@@ -11,3 +11,5 @@ All files were generated and revised by Codex in this conversation. No human man
 No human changes after AI generation need justification at present. Any later student edits should be appended here with their reasons.
 
 6. On the user's request, reviewed all four prompts again, clarified Prompt2's input-file fallback and Prompt3's exact primary CLI, followed Prompt1/Prompt2 on a supplementary 569×30 non-Iris UCI dataset, reran the full project and independently audited all 36 MDS embeddings. No numerical algorithm change was required. See prompt_recheck.md for evidence and limits.
+
+7. Following review feedback, ran full reproduction in a fresh result directory (exit 0, 69.10 seconds), checked both standalone Stage 3 CLI commands (exit 0), independently audited the 36 new embeddings and retained actual logs/status. Added precise remaining session-record instructions; no numerical implementation changes or fabricated transcripts.

@@ -1,0 +1,16 @@
+test_degenerate (__main__.TestMDS.test_degenerate) ... ok
+test_handout_triangle (__main__.TestMDS.test_handout_triangle) ... ok
+test_minkowski_and_extreme_q (__main__.TestMDS.test_minkowski_and_extreme_q) ... ok
+test_q_and_cli (__main__.TestMDS.test_q_and_cli) ... ok
+test_square_and_negative_spectrum (__main__.TestMDS.test_square_and_negative_spectrum) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 5.139s
+
+OK
+
+Completed wine
+Completed seeds
+Completed glass
+
+All result generation completed.

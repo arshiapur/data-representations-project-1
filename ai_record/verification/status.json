@@ -1,0 +1,44 @@
+{
+  "scope": "Fresh output directory in current cloud machine; not a user-local or independent AI session",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "code/reproduce.py"
+  ],
+  "started_utc": "2026-11-01T18:41:18.465487+00:00",
+  "exit_status": 0,
+  "elapsed_seconds": 69.09859387199958,
+  "stage3_cli": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "code/mds.py",
+        "--input",
+        "data/Iris.csv",
+        "--q",
+        "2",
+        "--dimensions",
+        "2"
+      ],
+      "exit_status": 0,
+      "outputs_exist": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "code/mds.py",
+        "--input",
+        "data/Iris.csv",
+        "--q",
+        "2",
+        "--dimensions",
+        "3"
+      ],
+      "exit_status": 0,
+      "outputs_exist": true
+    }
+  ],
+  "generated_stage4_pngs": 36,
+  "generated_required_iris_pngs": 6,
+  "maximum_coordinate_difference_from_submitted_36_embeddings": 0.0,
+  "independent_clean_output_audit": "passed all 36 embeddings"
+}
