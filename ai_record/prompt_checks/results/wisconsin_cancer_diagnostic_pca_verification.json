@@ -1,0 +1,31 @@
+{
+  "shape": [
+    569,
+    30
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "routine": "scipy.linalg.svd(full_matrices=False, lapack_driver=gesdd)",
+  "scaled": false,
+  "upca": {
+    "singular_values": [
+      30786.444627835794,
+      2480.4457833853057,
+      880.462944779233
+    ],
+    "projected_mean_norm": 1107.874426450915,
+    "relative_gram_error": 2.6299340842942417e-16
+  },
+  "cpca": {
+    "singular_values": [
+      15876.665888128602,
+      2037.6792767801087,
+      632.2796576354232
+    ],
+    "projected_mean_norm": 4.618560781870365e-13,
+    "relative_gram_error": 2.6166378055524035e-16
+  }
+}

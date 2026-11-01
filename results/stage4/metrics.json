@@ -1,0 +1,841 @@
+{
+  "metrics": [
+    {
+      "dataset": "wine",
+      "q": "1",
+      "negative_count": 111,
+      "negative_mass": 947655.2612680509,
+      "negative_mass_fraction": 0.04435168987329039,
+      "positive_mass_2D": 0.943294231814982,
+      "positive_mass_3D": 0.9559605611822514,
+      "error_2D": 0.02956181902813669,
+      "error_3D": 0.02981318828584387,
+      "mean_neighbor_jaccard": 0.7849451578384163,
+      "pairwise_spearman": 0.9985765790614874
+    },
+    {
+      "dataset": "wine",
+      "q": "1.5",
+      "negative_count": 114,
+      "negative_mass": 98506.10316633704,
+      "negative_mass_fraction": 0.005486546113255788,
+      "positive_mass_2D": 0.9932883619209301,
+      "positive_mass_3D": 0.9949815896971674,
+      "error_2D": 0.006353348641411693,
+      "error_3D": 0.007157870861897113,
+      "mean_neighbor_jaccard": 0.920545746388443,
+      "pairwise_spearman": 0.999924590154542
+    },
+    {
+      "dataset": "wine",
+      "q": "2",
+      "negative_count": 0,
+      "negative_mass": -0.0,
+      "negative_mass_fraction": -0.0,
+      "positive_mass_2D": 0.999827146116603,
+      "positive_mass_3D": 0.9999221050741546,
+      "error_2D": 0.0009551185924928911,
+      "error_3D": 0.0004555950369317214,
+      "mean_neighbor_jaccard": 1.0,
+      "pairwise_spearman": 0.9999999999999998
+    },
+    {
+      "dataset": "wine",
+      "q": "3",
+      "negative_count": 68,
+      "negative_mass": 25584.94990396371,
+      "negative_mass_fraction": 0.0014529489145478573,
+      "positive_mass_2D": 0.9986591426996042,
+      "positive_mass_3D": 0.9988862873850867,
+      "error_2D": 0.003652347846958128,
+      "error_3D": 0.0033729700020174213,
+      "mean_neighbor_jaccard": 0.9550561797752809,
+      "pairwise_spearman": 0.9999718639987912
+    },
+    {
+      "dataset": "wine",
+      "q": "4",
+      "negative_count": 72,
+      "negative_mass": 27672.289088088863,
+      "negative_mass_fraction": 0.0015713816198731235,
+      "positive_mass_2D": 0.998601483313915,
+      "positive_mass_3D": 0.9988073670263378,
+      "error_2D": 0.0046340370499216065,
+      "error_3D": 0.004144303694107062,
+      "mean_neighbor_jaccard": 0.9419475655430709,
+      "pairwise_spearman": 0.9999551440289872
+    },
+    {
+      "dataset": "wine",
+      "q": "inf",
+      "negative_count": 72,
+      "negative_mass": 28227.91562799878,
+      "negative_mass_fraction": 0.001602933695038357,
+      "positive_mass_2D": 0.9985823186924592,
+      "positive_mass_3D": 0.9988066168024373,
+      "error_2D": 0.005558741941641381,
+      "error_3D": 0.004984602384609913,
+      "mean_neighbor_jaccard": 0.8711766541822721,
+      "pairwise_spearman": 0.9999073722205992
+    },
+    {
+      "dataset": "seeds",
+      "q": "1",
+      "negative_count": 131,
+      "negative_mass": 1863.4896931841554,
+      "negative_mass_fraction": 0.14624251994934134,
+      "positive_mass_2D": 0.8503028702267759,
+      "positive_mass_3D": 0.8884061198750414,
+      "error_2D": 0.08419928835543745,
+      "error_3D": 0.08155881697123923,
+      "mean_neighbor_jaccard": 0.7289115646258503,
+      "pairwise_spearman": 0.9886551448073743
+    },
+    {
+      "dataset": "seeds",
+      "q": "1.5",
+      "negative_count": 138,
+      "negative_mass": 284.06794269115966,
+      "negative_mass_fraction": 0.06528102307167989,
+      "positive_mass_2D": 0.9314856612377939,
+      "positive_mass_3D": 0.9517263348874875,
+      "error_2D": 0.03847705999903787,
+      "error_3D": 0.032417581217957146,
+      "mean_neighbor_jaccard": 0.8693877551020407,
+      "pairwise_spearman": 0.9981679404456861
+    },
+    {
+      "dataset": "seeds",
+      "q": "2",
+      "negative_count": 0,
+      "negative_mass": -0.0,
+      "negative_mass_fraction": -0.0,
+      "positive_mass_2D": 0.9930176488286904,
+      "positive_mass_3D": 0.9986755576320091,
+      "error_2D": 0.011010763237925542,
+      "error_3D": 0.002224822762879997,
+      "mean_neighbor_jaccard": 1.0,
+      "pairwise_spearman": 0.9999999999999999
+    },
+    {
+      "dataset": "seeds",
+      "q": "3",
+      "negative_count": 84,
+      "negative_mass": 146.8087654222971,
+      "negative_mass_fraction": 0.05941745622509338,
+      "positive_mass_2D": 0.9313296260980142,
+      "positive_mass_3D": 0.9594917743379361,
+      "error_2D": 0.04407924706828079,
+      "error_3D": 0.03174313240617007,
+      "mean_neighbor_jaccard": 0.8909863945578231,
+      "pairwise_spearman": 0.9978883670115896
+    },
+    {
+      "dataset": "seeds",
+      "q": "4",
+      "negative_count": 100,
+      "negative_mass": 208.98518858734354,
+      "negative_mass_fraction": 0.08493952387519721,
+      "positive_mass_2D": 0.9062859108448034,
+      "positive_mass_3D": 0.9434859266185667,
+      "error_2D": 0.06511678705331513,
+      "error_3D": 0.04823961465214138,
+      "mean_neighbor_jaccard": 0.8277210884353741,
+      "pairwise_spearman": 0.9954549589416419
+    },
+    {
+      "dataset": "seeds",
+      "q": "inf",
+      "negative_count": 122,
+      "negative_mass": 376.3984230564827,
+      "negative_mass_fraction": 0.13947100553758068,
+      "positive_mass_2D": 0.8483610519419725,
+      "positive_mass_3D": 0.8904409427031774,
+      "error_2D": 0.09804091207389135,
+      "error_3D": 0.07947456406929007,
+      "mean_neighbor_jaccard": 0.7332766439909297,
+      "pairwise_spearman": 0.9889098154439339
+    },
+    {
+      "dataset": "glass",
+      "q": "1",
+      "negative_count": 139,
+      "negative_mass": 1481.7058162422722,
+      "negative_mass_fraction": 0.17962606893657376,
+      "positive_mass_2D": 0.5491653184317522,
+      "positive_mass_3D": 0.6645145591778036,
+      "error_2D": 0.2742028728539654,
+      "error_3D": 0.17055762599393157,
+      "mean_neighbor_jaccard": 0.739708500222519,
+      "pairwise_spearman": 0.9900023159066857
+    },
+    {
+      "dataset": "glass",
+      "q": "1.5",
+      "negative_count": 145,
+      "negative_mass": 175.28323715804214,
+      "negative_mass_fraction": 0.07439081691951596,
+      "positive_mass_2D": 0.6594515835348684,
+      "positive_mass_3D": 0.774121111190083,
+      "error_2D": 0.2606961533272655,
+      "error_3D": 0.16467379098062063,
+      "mean_neighbor_jaccard": 0.8864040943480195,
+      "pairwise_spearman": 0.9986062952637108
+    },
+    {
+      "dataset": "glass",
+      "q": "2",
+      "negative_count": 0,
+      "negative_mass": -0.0,
+      "negative_mass_fraction": -0.0,
+      "positive_mass_2D": 0.739398007522133,
+      "positive_mass_3D": 0.8471984391721052,
+      "error_2D": 0.2524186307694044,
+      "error_3D": 0.173907200285956,
+      "mean_neighbor_jaccard": 1.0,
+      "pairwise_spearman": 0.9999999999999999
+    },
+    {
+      "dataset": "glass",
+      "q": "3",
+      "negative_count": 73,
+      "negative_mass": 78.51303525364689,
+      "negative_mass_fraction": 0.06880399660207295,
+      "positive_mass_2D": 0.7189031718690031,
+      "positive_mass_3D": 0.8089693643639514,
+      "error_2D": 0.2462357777197954,
+      "error_3D": 0.12450940628127188,
+      "mean_neighbor_jaccard": 0.8716065865598576,
+      "pairwise_spearman": 0.998027919662922
+    },
+    {
+      "dataset": "glass",
+      "q": "4",
+      "negative_count": 88,
+      "negative_mass": 114.33655311926559,
+      "negative_mass_fraction": 0.10293800715830453,
+      "positive_mass_2D": 0.7087124896845791,
+      "positive_mass_3D": 0.7942883262917408,
+      "error_2D": 0.24663036782629838,
+      "error_3D": 0.12489037643135904,
+      "mean_neighbor_jaccard": 0.8124721851357364,
+      "pairwise_spearman": 0.9949728561420762
+    },
+    {
+      "dataset": "glass",
+      "q": "inf",
+      "negative_count": 103,
+      "negative_mass": 235.20511841135522,
+      "negative_mass_fraction": 0.1877655021341659,
+      "positive_mass_2D": 0.6553541374035395,
+      "positive_mass_3D": 0.7350804831461623,
+      "error_2D": 0.254635451770549,
+      "error_3D": 0.1296351259696298,
+      "mean_neighbor_jaccard": 0.6662818943776889,
+      "pairwise_spearman": 0.9829521265871469
+    }
+  ],
+  "pca_validation": [
+    {
+      "dataset": "wine",
+      "dimensions": 2,
+      "relative_aligned_error": 1.7145025548176127e-15,
+      "relative_pairwise_error": 1.3186628489156185e-15
+    },
+    {
+      "dataset": "wine",
+      "dimensions": 3,
+      "relative_aligned_error": 7.411182808428802e-15,
+      "relative_pairwise_error": 1.415673617618143e-15
+    },
+    {
+      "dataset": "seeds",
+      "dimensions": 2,
+      "relative_aligned_error": 2.1618564094482074e-15,
+      "relative_pairwise_error": 5.365064142651418e-16
+    },
+    {
+      "dataset": "seeds",
+      "dimensions": 3,
+      "relative_aligned_error": 2.357436878202599e-15,
+      "relative_pairwise_error": 5.713120896735741e-16
+    },
+    {
+      "dataset": "glass",
+      "dimensions": 2,
+      "relative_aligned_error": 2.3565167820386032e-15,
+      "relative_pairwise_error": 1.799571581769146e-15
+    },
+    {
+      "dataset": "glass",
+      "dimensions": 3,
+      "relative_aligned_error": 3.670924214712567e-15,
+      "relative_pairwise_error": 1.6891632419179327e-15
+    }
+  ],
+  "summaries": {
+    "wine": {
+      "features": [
+        {
+          "feature": "proline",
+          "sd": 314.0216568419877,
+          "range": 1402.0,
+          "squared_difference_share": 0.9977383616822384,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "magnesium",
+          "sd": 14.242307673359807,
+          "range": 92.0,
+          "squared_difference_share": 0.0020523819956442704,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "alcalinity_of_ash",
+          "sd": 3.330169757658213,
+          "range": 19.4,
+          "squared_difference_share": 0.00011220965167962454,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "color_intensity",
+          "sd": 2.3117646609525573,
+          "range": 11.72,
+          "squared_difference_share": 5.407352855706401e-05,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "malic_acid",
+          "sd": 1.1140036269797895,
+          "range": 5.06,
+          "squared_difference_share": 1.2556560075441401e-05,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "flavanoids",
+          "sd": 0.9960489503792328,
+          "range": 4.74,
+          "squared_difference_share": 1.0038269092699362e-05,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "alcohol",
+          "sd": 0.809542914528517,
+          "range": 3.8000000000000007,
+          "squared_difference_share": 6.630972414256672e-06,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "od280_od315",
+          "sd": 0.7079932646716006,
+          "range": 2.73,
+          "squared_difference_share": 5.071725284577576e-06,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "total_phenols",
+          "sd": 0.6240905641965366,
+          "range": 2.9,
+          "squared_difference_share": 3.940875383261509e-06,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "proanthocyanins",
+          "sd": 0.5707488486199377,
+          "range": 3.17,
+          "squared_difference_share": 3.2960026886615788e-06,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "ash",
+          "sd": 0.2735722944264325,
+          "range": 1.8699999999999999,
+          "squared_difference_share": 7.572542071270745e-07,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "hue",
+          "sd": 0.2279286065650725,
+          "range": 1.23,
+          "squared_difference_share": 5.256481498124694e-07,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "nonflavanoid_phenols",
+          "sd": 0.12410325988364797,
+          "range": 0.53,
+          "squared_difference_share": 1.558345847797985e-07,
+          "zero_fraction": 0.0
+        }
+      ],
+      "most_stable_rows": [
+        1,
+        4,
+        5,
+        6,
+        9,
+        11,
+        15,
+        19,
+        22,
+        24,
+        31,
+        32,
+        36,
+        37,
+        38,
+        49,
+        61,
+        65,
+        66,
+        71,
+        72,
+        81,
+        88,
+        94,
+        104,
+        124,
+        125,
+        126,
+        140,
+        145,
+        146,
+        147,
+        148,
+        149,
+        158,
+        160,
+        162,
+        164,
+        169,
+        174,
+        176,
+        177
+      ],
+      "least_stable_rows": [
+        136
+      ],
+      "maximum_stability": 1.0,
+      "minimum_stability": 0.5857142857142856,
+      "perq": {
+        "1": {
+          "dataset": "wine",
+          "q": "1",
+          "negative_count": 111,
+          "negative_mass": 947655.2612680509,
+          "negative_mass_fraction": 0.04435168987329039,
+          "positive_mass_2D": 0.943294231814982,
+          "positive_mass_3D": 0.9559605611822514,
+          "error_2D": 0.02956181902813669,
+          "error_3D": 0.02981318828584387,
+          "mean_neighbor_jaccard": 0.7849451578384163,
+          "pairwise_spearman": 0.9985765790614874
+        },
+        "1.5": {
+          "dataset": "wine",
+          "q": "1.5",
+          "negative_count": 114,
+          "negative_mass": 98506.10316633704,
+          "negative_mass_fraction": 0.005486546113255788,
+          "positive_mass_2D": 0.9932883619209301,
+          "positive_mass_3D": 0.9949815896971674,
+          "error_2D": 0.006353348641411693,
+          "error_3D": 0.007157870861897113,
+          "mean_neighbor_jaccard": 0.920545746388443,
+          "pairwise_spearman": 0.999924590154542
+        },
+        "2": {
+          "dataset": "wine",
+          "q": "2",
+          "negative_count": 0,
+          "negative_mass": -0.0,
+          "negative_mass_fraction": -0.0,
+          "positive_mass_2D": 0.999827146116603,
+          "positive_mass_3D": 0.9999221050741546,
+          "error_2D": 0.0009551185924928911,
+          "error_3D": 0.0004555950369317214,
+          "mean_neighbor_jaccard": 1.0,
+          "pairwise_spearman": 0.9999999999999998
+        },
+        "3": {
+          "dataset": "wine",
+          "q": "3",
+          "negative_count": 68,
+          "negative_mass": 25584.94990396371,
+          "negative_mass_fraction": 0.0014529489145478573,
+          "positive_mass_2D": 0.9986591426996042,
+          "positive_mass_3D": 0.9988862873850867,
+          "error_2D": 0.003652347846958128,
+          "error_3D": 0.0033729700020174213,
+          "mean_neighbor_jaccard": 0.9550561797752809,
+          "pairwise_spearman": 0.9999718639987912
+        },
+        "4": {
+          "dataset": "wine",
+          "q": "4",
+          "negative_count": 72,
+          "negative_mass": 27672.289088088863,
+          "negative_mass_fraction": 0.0015713816198731235,
+          "positive_mass_2D": 0.998601483313915,
+          "positive_mass_3D": 0.9988073670263378,
+          "error_2D": 0.0046340370499216065,
+          "error_3D": 0.004144303694107062,
+          "mean_neighbor_jaccard": 0.9419475655430709,
+          "pairwise_spearman": 0.9999551440289872
+        },
+        "inf": {
+          "dataset": "wine",
+          "q": "inf",
+          "negative_count": 72,
+          "negative_mass": 28227.91562799878,
+          "negative_mass_fraction": 0.001602933695038357,
+          "positive_mass_2D": 0.9985823186924592,
+          "positive_mass_3D": 0.9988066168024373,
+          "error_2D": 0.005558741941641381,
+          "error_3D": 0.004984602384609913,
+          "mean_neighbor_jaccard": 0.8711766541822721,
+          "pairwise_spearman": 0.9999073722205992
+        }
+      }
+    },
+    "seeds": {
+      "features": [
+        {
+          "feature": "area",
+          "sd": 2.9027633077572266,
+          "range": 10.59,
+          "squared_difference_share": 0.650574753894525,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "asymmetry_coefficient",
+          "sd": 1.4999729609305972,
+          "range": 7.690899999999999,
+          "squared_difference_share": 0.17371639864418098,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "perimeter",
+          "sd": 1.3028455904876302,
+          "range": 4.84,
+          "squared_difference_share": 0.1310568880587977,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "groove_length",
+          "sd": 0.49030891102578644,
+          "range": 2.0309999999999997,
+          "squared_difference_share": 0.01856151963968824,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "kernel_length",
+          "sd": 0.4420073058363384,
+          "range": 1.7759999999999998,
+          "squared_difference_share": 0.015084567130604831,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "kernel_width",
+          "sd": 0.37681405162378667,
+          "range": 1.4030000000000005,
+          "squared_difference_share": 0.010962967727093402,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "compactness",
+          "sd": 0.02357308893142152,
+          "range": 0.11019999999999996,
+          "squared_difference_share": 4.2904905109830436e-05,
+          "zero_fraction": 0.0
+        }
+      ],
+      "most_stable_rows": [
+        1,
+        6,
+        8,
+        24,
+        35,
+        56,
+        71,
+        74,
+        77,
+        89,
+        90,
+        108,
+        115,
+        121,
+        133,
+        140,
+        155,
+        160,
+        169,
+        174,
+        201,
+        202
+      ],
+      "least_stable_rows": [
+        181
+      ],
+      "maximum_stability": 1.0,
+      "minimum_stability": 0.41666666666666663,
+      "perq": {
+        "1": {
+          "dataset": "seeds",
+          "q": "1",
+          "negative_count": 131,
+          "negative_mass": 1863.4896931841554,
+          "negative_mass_fraction": 0.14624251994934134,
+          "positive_mass_2D": 0.8503028702267759,
+          "positive_mass_3D": 0.8884061198750414,
+          "error_2D": 0.08419928835543745,
+          "error_3D": 0.08155881697123923,
+          "mean_neighbor_jaccard": 0.7289115646258503,
+          "pairwise_spearman": 0.9886551448073743
+        },
+        "1.5": {
+          "dataset": "seeds",
+          "q": "1.5",
+          "negative_count": 138,
+          "negative_mass": 284.06794269115966,
+          "negative_mass_fraction": 0.06528102307167989,
+          "positive_mass_2D": 0.9314856612377939,
+          "positive_mass_3D": 0.9517263348874875,
+          "error_2D": 0.03847705999903787,
+          "error_3D": 0.032417581217957146,
+          "mean_neighbor_jaccard": 0.8693877551020407,
+          "pairwise_spearman": 0.9981679404456861
+        },
+        "2": {
+          "dataset": "seeds",
+          "q": "2",
+          "negative_count": 0,
+          "negative_mass": -0.0,
+          "negative_mass_fraction": -0.0,
+          "positive_mass_2D": 0.9930176488286904,
+          "positive_mass_3D": 0.9986755576320091,
+          "error_2D": 0.011010763237925542,
+          "error_3D": 0.002224822762879997,
+          "mean_neighbor_jaccard": 1.0,
+          "pairwise_spearman": 0.9999999999999999
+        },
+        "3": {
+          "dataset": "seeds",
+          "q": "3",
+          "negative_count": 84,
+          "negative_mass": 146.8087654222971,
+          "negative_mass_fraction": 0.05941745622509338,
+          "positive_mass_2D": 0.9313296260980142,
+          "positive_mass_3D": 0.9594917743379361,
+          "error_2D": 0.04407924706828079,
+          "error_3D": 0.03174313240617007,
+          "mean_neighbor_jaccard": 0.8909863945578231,
+          "pairwise_spearman": 0.9978883670115896
+        },
+        "4": {
+          "dataset": "seeds",
+          "q": "4",
+          "negative_count": 100,
+          "negative_mass": 208.98518858734354,
+          "negative_mass_fraction": 0.08493952387519721,
+          "positive_mass_2D": 0.9062859108448034,
+          "positive_mass_3D": 0.9434859266185667,
+          "error_2D": 0.06511678705331513,
+          "error_3D": 0.04823961465214138,
+          "mean_neighbor_jaccard": 0.8277210884353741,
+          "pairwise_spearman": 0.9954549589416419
+        },
+        "inf": {
+          "dataset": "seeds",
+          "q": "inf",
+          "negative_count": 122,
+          "negative_mass": 376.3984230564827,
+          "negative_mass_fraction": 0.13947100553758068,
+          "positive_mass_2D": 0.8483610519419725,
+          "positive_mass_3D": 0.8904409427031774,
+          "error_2D": 0.09804091207389135,
+          "error_3D": 0.07947456406929007,
+          "mean_neighbor_jaccard": 0.7332766439909297,
+          "pairwise_spearman": 0.9889098154439339
+        }
+      }
+    },
+    "glass": {
+      "features": [
+        {
+          "feature": "magnesium",
+          "sd": 1.4390337868112202,
+          "range": 4.49,
+          "squared_difference_share": 0.330033720082513,
+          "zero_fraction": 0.19626168224299065
+        },
+        {
+          "feature": "calcium",
+          "sd": 1.419824468716814,
+          "range": 10.760000000000002,
+          "squared_difference_share": 0.32128144609559706,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "sodium",
+          "sd": 0.8146933693428364,
+          "range": 6.649999999999999,
+          "squared_difference_share": 0.1057802761638227,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "silicon",
+          "sd": 0.7727339892550712,
+          "range": 5.599999999999994,
+          "squared_difference_share": 0.09516480543033189,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "potassium",
+          "sd": 0.650666248509233,
+          "range": 6.21,
+          "squared_difference_share": 0.06747344618560999,
+          "zero_fraction": 0.14018691588785046
+        },
+        {
+          "feature": "aluminum",
+          "sd": 0.498101761789083,
+          "range": 3.21,
+          "squared_difference_share": 0.03954144069735493,
+          "zero_fraction": 0.0
+        },
+        {
+          "feature": "barium",
+          "sd": 0.4960561730170948,
+          "range": 3.15,
+          "squared_difference_share": 0.039217332475976814,
+          "zero_fraction": 0.822429906542056
+        },
+        {
+          "feature": "iron",
+          "sd": 0.09721077353922959,
+          "range": 0.51,
+          "squared_difference_share": 0.0015060699077039492,
+          "zero_fraction": 0.6728971962616822
+        },
+        {
+          "feature": "refractive_index",
+          "sd": 0.003029759954827502,
+          "range": 0.022780000000000022,
+          "squared_difference_share": 1.462961089691388e-06,
+          "zero_fraction": 0.0
+        }
+      ],
+      "most_stable_rows": [
+        49,
+        59,
+        65,
+        67,
+        68,
+        69,
+        108,
+        117,
+        159,
+        177,
+        192,
+        193,
+        194,
+        196,
+        197,
+        201,
+        204,
+        205,
+        206,
+        207,
+        211,
+        212,
+        214
+      ],
+      "least_stable_rows": [
+        181
+      ],
+      "maximum_stability": 1.0,
+      "minimum_stability": 0.37698412698412703,
+      "perq": {
+        "1": {
+          "dataset": "glass",
+          "q": "1",
+          "negative_count": 139,
+          "negative_mass": 1481.7058162422722,
+          "negative_mass_fraction": 0.17962606893657376,
+          "positive_mass_2D": 0.5491653184317522,
+          "positive_mass_3D": 0.6645145591778036,
+          "error_2D": 0.2742028728539654,
+          "error_3D": 0.17055762599393157,
+          "mean_neighbor_jaccard": 0.739708500222519,
+          "pairwise_spearman": 0.9900023159066857
+        },
+        "1.5": {
+          "dataset": "glass",
+          "q": "1.5",
+          "negative_count": 145,
+          "negative_mass": 175.28323715804214,
+          "negative_mass_fraction": 0.07439081691951596,
+          "positive_mass_2D": 0.6594515835348684,
+          "positive_mass_3D": 0.774121111190083,
+          "error_2D": 0.2606961533272655,
+          "error_3D": 0.16467379098062063,
+          "mean_neighbor_jaccard": 0.8864040943480195,
+          "pairwise_spearman": 0.9986062952637108
+        },
+        "2": {
+          "dataset": "glass",
+          "q": "2",
+          "negative_count": 0,
+          "negative_mass": -0.0,
+          "negative_mass_fraction": -0.0,
+          "positive_mass_2D": 0.739398007522133,
+          "positive_mass_3D": 0.8471984391721052,
+          "error_2D": 0.2524186307694044,
+          "error_3D": 0.173907200285956,
+          "mean_neighbor_jaccard": 1.0,
+          "pairwise_spearman": 0.9999999999999999
+        },
+        "3": {
+          "dataset": "glass",
+          "q": "3",
+          "negative_count": 73,
+          "negative_mass": 78.51303525364689,
+          "negative_mass_fraction": 0.06880399660207295,
+          "positive_mass_2D": 0.7189031718690031,
+          "positive_mass_3D": 0.8089693643639514,
+          "error_2D": 0.2462357777197954,
+          "error_3D": 0.12450940628127188,
+          "mean_neighbor_jaccard": 0.8716065865598576,
+          "pairwise_spearman": 0.998027919662922
+        },
+        "4": {
+          "dataset": "glass",
+          "q": "4",
+          "negative_count": 88,
+          "negative_mass": 114.33655311926559,
+          "negative_mass_fraction": 0.10293800715830453,
+          "positive_mass_2D": 0.7087124896845791,
+          "positive_mass_3D": 0.7942883262917408,
+          "error_2D": 0.24663036782629838,
+          "error_3D": 0.12489037643135904,
+          "mean_neighbor_jaccard": 0.8124721851357364,
+          "pairwise_spearman": 0.9949728561420762
+        },
+        "inf": {
+          "dataset": "glass",
+          "q": "inf",
+          "negative_count": 103,
+          "negative_mass": 235.20511841135522,
+          "negative_mass_fraction": 0.1877655021341659,
+          "positive_mass_2D": 0.6553541374035395,
+          "positive_mass_3D": 0.7350804831461623,
+          "error_2D": 0.254635451770549,
+          "error_3D": 0.1296351259696298,
+          "mean_neighbor_jaccard": 0.6662818943776889,
+          "pairwise_spearman": 0.9829521265871469
+        }
+      }
+    }
+  }
+}

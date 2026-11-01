@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "iris",
+    "title": "Iris",
+    "uci_id": 53,
+    "page_url": "https://archive.ics.uci.edu/dataset/53/iris",
+    "archive_url": "https://archive.ics.uci.edu/static/public/53/iris.zip",
+    "source_file": "iris.data",
+    "archive_sha256": "d11fe30213d36434a0879aab7cb00ce3c812eb7ba2495874438abff7b7b762e9",
+    "matrix_sha256": "22a72266511f3b7e2913bfacdb00ba7b0f98aedc31e9a7f017c46a157facad41",
+    "matrix": "data/Iris.csv",
+    "shape": [
+      150,
+      4
+    ],
+    "features": [
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "note": "Flower; four lengths in cm; exclude species target (column 5). The Iris query exactly matches the official title. Use iris.data as supplied, not bezdekIris.data; retain documented historical discrepancies without manual correction.",
+    "missing_policy": "Official documentation: none; reject unexpected missing/nonfinite values",
+    "rows_removed": 0,
+    "feature_columns_removed": 0,
+    "excluded_columns": 1,
+    "duplicate_rows": 3,
+    "row_order": "source order; duplicates retained"
+  },
+  {
+    "slug": "wine",
+    "title": "Wine",
+    "uci_id": 109,
+    "page_url": "https://archive.ics.uci.edu/dataset/109/wine",
+    "archive_url": "https://archive.ics.uci.edu/static/public/109/wine.zip",
+    "source_file": "wine.data",
+    "archive_sha256": "2bae62c4481220623579d4c4fb36b55652b6b75e06e49fa1981b8198362dfdab",
+    "matrix_sha256": "ca59f9b6c16c613b509b9e5eea8386fd60b8e8a5472ec5421732bf6c3984778d",
+    "matrix": "data/stage4/wine.csv",
+    "shape": [
+      178,
+      13
+    ],
+    "features": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315",
+      "proline"
+    ],
+    "note": "Wine sample; 13 chemical measurements; exclude cultivar target (column 1). Heterogeneous quantities and substantial scale imbalance. Exact per-feature physical units are not supplied in wine.names; do not infer them.",
+    "missing_policy": "Official documentation: none; reject unexpected missing/nonfinite values",
+    "rows_removed": 0,
+    "feature_columns_removed": 0,
+    "excluded_columns": 1,
+    "duplicate_rows": 0,
+    "row_order": "source order; duplicates retained"
+  },
+  {
+    "slug": "seeds",
+    "title": "Seeds",
+    "uci_id": 236,
+    "page_url": "https://archive.ics.uci.edu/dataset/236/seeds",
+    "archive_url": "https://archive.ics.uci.edu/static/public/236/seeds.zip",
+    "source_file": "seeds_dataset.txt",
+    "archive_sha256": "5033bd71b24592fa70d9b3cc5be02332dc6d03d0b27e6655e6d553f39afab323",
+    "matrix_sha256": "7577862b1bfeb04f952881d169d4ad9f00c09a96e63a27d1cfc7e2a30728e15a",
+    "matrix": "data/stage4/seeds.csv",
+    "shape": [
+      210,
+      7
+    ],
+    "features": [
+      "area",
+      "perimeter",
+      "compactness",
+      "kernel_length",
+      "kernel_width",
+      "asymmetry_coefficient",
+      "groove_length"
+    ],
+    "note": "Wheat kernel; seven documented geometric measurements; exclude variety target (column 8). Compactness is 4*pi*A/P^2 and dimensionless; physical units of area/length are not stated on the UCI page. Geometric redundancy and mixed magnitudes contrast with Wine.",
+    "missing_policy": "Official documentation: none; reject unexpected missing/nonfinite values",
+    "rows_removed": 0,
+    "feature_columns_removed": 0,
+    "excluded_columns": 1,
+    "duplicate_rows": 0,
+    "row_order": "source order; duplicates retained"
+  },
+  {
+    "slug": "glass",
+    "title": "Glass Identification",
+    "uci_id": 42,
+    "page_url": "https://archive.ics.uci.edu/dataset/42/glass+identification",
+    "archive_url": "https://archive.ics.uci.edu/static/public/42/glass+identification.zip",
+    "source_file": "glass.data",
+    "archive_sha256": "499c07a17115bf63100bb19cc1fdefad7f464bf5dc2b168930fa2071fd6b6e65",
+    "matrix_sha256": "8bde27e6912cf87585f3870e8dc48193e6cdd925c03e4a04dee3741d5d6619e6",
+    "matrix": "data/stage4/glass.csv",
+    "shape": [
+      214,
+      9
+    ],
+    "features": [
+      "refractive_index",
+      "sodium",
+      "magnesium",
+      "aluminum",
+      "silicon",
+      "potassium",
+      "calcium",
+      "barium",
+      "iron"
+    ],
+    "note": "Glass sample; exclude ID (column 1) and glass-type target (column 11). Refractive index is dimensionless; eight chemical features are weight percent in corresponding oxide. Compositional dependence and zero concentrations contrast with Wine/Seeds.",
+    "missing_policy": "Official documentation: none; reject unexpected missing/nonfinite values",
+    "rows_removed": 0,
+    "feature_columns_removed": 0,
+    "excluded_columns": 2,
+    "duplicate_rows": 1,
+    "row_order": "source order; duplicates retained"
+  }
+]

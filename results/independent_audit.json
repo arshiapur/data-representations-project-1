@@ -1,0 +1,254 @@
+[
+  {
+    "dataset": "wine",
+    "q": "1",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.5274564911577154e-16,
+    "independent_normalized_distance_error": 0.029561819028136687
+  },
+  {
+    "dataset": "wine",
+    "q": "1",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.5274564911577154e-16,
+    "independent_normalized_distance_error": 0.02981318828584387
+  },
+  {
+    "dataset": "wine",
+    "q": "1.5",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.4850478021579315e-15,
+    "independent_normalized_distance_error": 0.006353348641411666
+  },
+  {
+    "dataset": "wine",
+    "q": "1.5",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.4850478021579315e-15,
+    "independent_normalized_distance_error": 0.007157870861897127
+  },
+  {
+    "dataset": "wine",
+    "q": "2",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.6349702774739102e-15,
+    "independent_normalized_distance_error": 0.0009551185924928913
+  },
+  {
+    "dataset": "wine",
+    "q": "2",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.6349702774739102e-15,
+    "independent_normalized_distance_error": 0.0004555950369317214
+  },
+  {
+    "dataset": "wine",
+    "q": "3",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.55449091595263e-15,
+    "independent_normalized_distance_error": 0.0036523478469581345
+  },
+  {
+    "dataset": "wine",
+    "q": "3",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.55449091595263e-15,
+    "independent_normalized_distance_error": 0.0033729700020174377
+  },
+  {
+    "dataset": "wine",
+    "q": "4",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.0698949244604552e-15,
+    "independent_normalized_distance_error": 0.0046340370499216065
+  },
+  {
+    "dataset": "wine",
+    "q": "4",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.0698949244604552e-15,
+    "independent_normalized_distance_error": 0.004144303694107062
+  },
+  {
+    "dataset": "wine",
+    "q": "inf",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 8.668806072749846e-16,
+    "independent_normalized_distance_error": 0.005558741941641381
+  },
+  {
+    "dataset": "wine",
+    "q": "inf",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 8.668806072749846e-16,
+    "independent_normalized_distance_error": 0.004984602384609913
+  },
+  {
+    "dataset": "seeds",
+    "q": "1",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.237454266888654e-15,
+    "independent_normalized_distance_error": 0.08419928835543745
+  },
+  {
+    "dataset": "seeds",
+    "q": "1",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.237454266888654e-15,
+    "independent_normalized_distance_error": 0.08155881697123923
+  },
+  {
+    "dataset": "seeds",
+    "q": "1.5",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.324983283819208e-15,
+    "independent_normalized_distance_error": 0.03847705999903788
+  },
+  {
+    "dataset": "seeds",
+    "q": "1.5",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.324983283819208e-15,
+    "independent_normalized_distance_error": 0.03241758121795718
+  },
+  {
+    "dataset": "seeds",
+    "q": "2",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 6.615113779703561e-16,
+    "independent_normalized_distance_error": 0.011010763237925542
+  },
+  {
+    "dataset": "seeds",
+    "q": "2",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 6.615113779703561e-16,
+    "independent_normalized_distance_error": 0.002224822762879997
+  },
+  {
+    "dataset": "seeds",
+    "q": "3",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.7295241345422043e-15,
+    "independent_normalized_distance_error": 0.04407924706828079
+  },
+  {
+    "dataset": "seeds",
+    "q": "3",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.7295241345422043e-15,
+    "independent_normalized_distance_error": 0.0317431324061701
+  },
+  {
+    "dataset": "seeds",
+    "q": "4",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.7141304141708928e-15,
+    "independent_normalized_distance_error": 0.06511678705331513
+  },
+  {
+    "dataset": "seeds",
+    "q": "4",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.7141304141708928e-15,
+    "independent_normalized_distance_error": 0.04823961465214138
+  },
+  {
+    "dataset": "seeds",
+    "q": "inf",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.0680190664478873e-15,
+    "independent_normalized_distance_error": 0.09804091207389135
+  },
+  {
+    "dataset": "seeds",
+    "q": "inf",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.0680190664478873e-15,
+    "independent_normalized_distance_error": 0.07947456406929007
+  },
+  {
+    "dataset": "glass",
+    "q": "1",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.4716928276431553e-15,
+    "independent_normalized_distance_error": 0.27420287285396533
+  },
+  {
+    "dataset": "glass",
+    "q": "1",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.4716928276431553e-15,
+    "independent_normalized_distance_error": 0.17055762599393157
+  },
+  {
+    "dataset": "glass",
+    "q": "1.5",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.302295956188374e-15,
+    "independent_normalized_distance_error": 0.2606961533272655
+  },
+  {
+    "dataset": "glass",
+    "q": "1.5",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.302295956188374e-15,
+    "independent_normalized_distance_error": 0.16467379098062063
+  },
+  {
+    "dataset": "glass",
+    "q": "2",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.953222901976998e-15,
+    "independent_normalized_distance_error": 0.2524186307694044
+  },
+  {
+    "dataset": "glass",
+    "q": "2",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.953222901976998e-15,
+    "independent_normalized_distance_error": 0.173907200285956
+  },
+  {
+    "dataset": "glass",
+    "q": "3",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.0583520991081525e-15,
+    "independent_normalized_distance_error": 0.2462357777197954
+  },
+  {
+    "dataset": "glass",
+    "q": "3",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.0583520991081525e-15,
+    "independent_normalized_distance_error": 0.12450940628127188
+  },
+  {
+    "dataset": "glass",
+    "q": "4",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 1.6669485048045501e-15,
+    "independent_normalized_distance_error": 0.24663036782629838
+  },
+  {
+    "dataset": "glass",
+    "q": "4",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 1.6669485048045501e-15,
+    "independent_normalized_distance_error": 0.12489037643135906
+  },
+  {
+    "dataset": "glass",
+    "q": "inf",
+    "dimensions": 2,
+    "relative_spectrum_discrepancy": 2.38740430969878e-15,
+    "independent_normalized_distance_error": 0.254635451770549
+  },
+  {
+    "dataset": "glass",
+    "q": "inf",
+    "dimensions": 3,
+    "relative_spectrum_discrepancy": 2.38740430969878e-15,
+    "independent_normalized_distance_error": 0.1296351259696298
+  }
+]
