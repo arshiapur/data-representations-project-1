@@ -17,3 +17,7 @@ Optionally have another person pick an undisclosed eligible UCI query, execute P
 ## Execution-limit note
 
 The reproduction runner launches 36 separate Python/plotting processes for Stage 4. A short command timeout may end observation before the pipeline completes. Current clean-run exit status, elapsed time and console log are in verification/. It was tested on the cloud machine, not the student computer.
+
+## Stage 1 follow-up evidence received
+
+The user supplied acquisition_audit.md and Iris.csv from a reported ChatGPT execution. Both are preserved in stage1_chatgpt/. The numeric matrix exactly matches the submitted matrix. The audit explicitly documents reuse of a retained official archive after a live ZIP-download limitation. Stage 1 now has an acquisition audit and output; still obtain the actual conversation export or share link to complete the transcript evidence. No fresh Stage 3 Codex record has been supplied.
